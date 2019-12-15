@@ -1,30 +1,38 @@
 import React from "react";
 
 import {
-  LoginBanner,
-  LoginWrapperStyled,
+  LoginPage,
+  YellowBanner,
+  PinkContainer,
   LoginStyled,
   LoginHeader,
+  AquaBanner,
 } from './LoginStyled';
 
 import {
   Button,
   StyledLink,
   SignupLink,
+  InputStyling,
 } from '../Button';
 
 export const Login = () => (
-  <LoginBanner>
-    <LoginWrapperStyled>
+  <LoginPage>
+    <YellowBanner/>
+    <PinkContainer>
+      
       <LoginStyled>
         <LoginHeader>Login</LoginHeader>
-        <input type="text" placeholder="Username" />
-        <input type="text" placeholder="Email" />
-        <input type="text" placeholder="Password" />
+        
+        <InputStyling>
+          <input type="text" placeholder="Email" />
+          <input type="text" placeholder="Password" />
+        </InputStyling>
+        
         <StyledLink to="/order"><Button>Login</Button></StyledLink>
         <p><SignupLink to="/signup">Need to Sign-Up?</SignupLink></p>
       </LoginStyled>
-    </LoginWrapperStyled>
-  </LoginBanner>
+    </PinkContainer>
+    <AquaBanner/>
+  </LoginPage>
 );
-
