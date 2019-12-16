@@ -27,3 +27,19 @@ body {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
+
+/* export const GabrielTopBanner = styled.div`
+  background: url("https://t4.ftcdn.net/jpg/01/77/73/09/240_F_177730916_7yqjXSbASxEG8yJVOpwPY4Hyk3UEILWG.jpg") no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+
+  background: #cae4e6;
+`; */

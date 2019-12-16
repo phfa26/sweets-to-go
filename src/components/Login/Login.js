@@ -29,7 +29,7 @@ export const Login = () => (
           <input type="text" placeholder="Password" />
         </InputStyling>
         
-        <StyledLink to="/order"><Button>Login</Button></StyledLink>
+        <StyledLink to="/menu"><Button>Login</Button></StyledLink>
         <SignupLink to="/signup">Need to Sign-Up?</SignupLink>
       </LoginStyled>
     </PinkContainer>

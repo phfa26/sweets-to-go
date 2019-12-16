@@ -31,7 +31,7 @@ export const Signup = () => (
           <input type="text" placeholder="Password Confirmation" />
         </InputStyling>
 
-        <StyledLink to="/order"><Button>Sign-Up</Button></StyledLink>
+        <StyledLink to="/menu"><Button>Sign-Up</Button></StyledLink>
         <p><SignupLink to="/login">Already have an account?</SignupLink></p>
 
       </SignupStyled>
