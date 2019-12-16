@@ -40,10 +40,10 @@ export const NavigationBar = () => (
             <Nav.Link href="/menu">Menu</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/purchase">Purchase</Nav.Link>
+            <Nav.Link href="/login">Login</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/login">Login</Nav.Link>
+            <Nav.Link href="/purchase"><i class="fas fa-shopping-cart"></i></Nav.Link>
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>
