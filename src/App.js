@@ -5,6 +5,7 @@ import {SummerHome} from './components/Home/SummerHome';
 import {Order} from './pages/Order';
 import {Purchase} from './pages/Purchase';
 import {Login} from './components/Login/Login';
+import {Signup} from './components/Signup/Signup';
 import {NoMatch} from './pages/NoMatch';
 import {NavigationBar} from './components/NavigationBar';
 
@@ -19,6 +20,7 @@ class App extends Component {
               <Route path="/order" component={Order} />
               <Route path="/purchase" component={Purchase} />
               <Route path="/login" component={Login} />
+            <Route path="/signup" component={Signup} />
               <Route component={NoMatch} />
             </Switch>
           </Router>

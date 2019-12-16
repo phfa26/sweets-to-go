@@ -30,7 +30,7 @@ export const Login = () => (
         </InputStyling>
         
         <StyledLink to="/order"><Button>Login</Button></StyledLink>
-        <p><SignupLink to="/signup">Need to Sign-Up?</SignupLink></p>
+        <SignupLink to="/signup">Need to Sign-Up?</SignupLink>
       </LoginStyled>
     </PinkContainer>
     <AquaBanner/>
