@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {SummerHome} from './components/Home/SummerHome';
-// import {WinterHome} from './components/Home/WinterHome';
+// import {SummerHome} from './components/Home/SummerHome';
+import {WinterHome} from './components/Home/WinterHome';
 import {MenuItems} from './components/MenuItems/Menu';
 import {Purchase} from './pages/Purchase';
 import {Login} from './components/Login/Login';
@@ -16,7 +16,7 @@ class App extends Component {
         <NavigationBar/>
           <Router>
             <Switch>
-            <Route exact path="/" component={SummerHome} />
+            <Route exact path="/" component={WinterHome} />
               <Route path="/menu" component={MenuItems} />
               <Route path="/purchase" component={Purchase} />
               <Route path="/login" component={Login} />

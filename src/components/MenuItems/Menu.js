@@ -2,13 +2,21 @@ import React from "react";
 
 import {
   MenuPage,
-  MenuSummerBar,
-  BottomMenuBar,
+  MenuItem1,
+  MenuItem2,
+  MenuItem3,
+  MenuItem4,
+  // MenuSummerBar,
+  // BottomMenuBar,
+
 } from './MenuStyled';
 
 export const MenuItems = () => (
   <MenuPage>
-    <MenuSummerBar/>
-    <BottomMenuBar/>
+      <MenuItem1 />
+      <MenuItem2 />
+      <MenuItem3 />
+      <MenuItem4 />
+    
   </MenuPage>
 );

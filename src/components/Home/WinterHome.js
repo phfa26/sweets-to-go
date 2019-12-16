@@ -6,16 +6,19 @@ import {
   HeaderWrapper,
   HomeHeader,
   HomeSentence,
-  HomeButton,
-  SignupLink
+  StyledLink
 } from './HomeStyled';
 
-export const SummerHome = () => (
+import {
+  Button,
+} from '../Button';
+
+export const WinterHome = () => (
   <CoolerHomeWrapper>
     <HeaderWrapper>
       <HomeHeader>Sweets To Go</HomeHeader>
       <HomeSentence>Because there's always <br /> room for dessert</HomeSentence>
     </HeaderWrapper>
-    <HomeButton><StyledLink to="/login">Make An Order</StyledLink></HomeButton>
+    <StyledLink to="/login"><Button>Make An Order</Button></StyledLink>
   </CoolerHomeWrapper>
 );
