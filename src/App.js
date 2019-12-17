@@ -2,12 +2,12 @@ import React, {Component} from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {SummerHome} from './components/Home/SummerHome';
 // import {WinterHome} from './components/Home/WinterHome';
-import {Purchase} from './components/Cart/Purchase';
 import {Login} from './components/Login/Login';
 import {Signup} from './components/Signup/Signup';
 import {NoMatch} from './components/NoMatch';
 import {NavigationBar} from './components/NavigationBar';
 import MenuPage from './components/Menu/MenuPage';
+import PurchasePage from './components/Cart/PurchasePage';
 
 class App extends Component {
   render(){
@@ -18,7 +18,7 @@ class App extends Component {
             <Switch>
             <Route exact path="/" component={SummerHome} />
               <Route path="/menu" component={MenuPage} />
-              <Route path="/purchase" component={Purchase} />
+              <Route path="/purchase" component={PurchasePage} />
               <Route path="/login" component={Login} />
             <Route path="/signup" component={Signup} />
               <Route component={NoMatch} />
