@@ -2,10 +2,10 @@ import React, {Component} from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {SummerHome} from './components/Home/SummerHome';
 // import {WinterHome} from './components/Home/WinterHome';
-import {Purchase} from './pages/Purchase';
+import {Purchase} from './components/Cart/Purchase';
 import {Login} from './components/Login/Login';
 import {Signup} from './components/Signup/Signup';
-import {NoMatch} from './pages/NoMatch';
+import {NoMatch} from './components/NoMatch';
 import {NavigationBar} from './components/NavigationBar';
 import MenuPage from './components/Menu/MenuPage';
 
