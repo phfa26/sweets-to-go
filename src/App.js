@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 // import {SummerHome} from './components/Home/SummerHome';
 import {WinterHome} from './components/Home/WinterHome';
-import {MenuItems} from './components/MenuItems/Menu';
+import {MenuBlock} from './components/MenuPage/Menu';
 import {Purchase} from './pages/Purchase';
 import {Login} from './components/Login/Login';
 import {Signup} from './components/Signup/Signup';
@@ -17,7 +17,7 @@ class App extends Component {
           <Router>
             <Switch>
             <Route exact path="/" component={WinterHome} />
-              <Route path="/menu" component={MenuItems} />
+              <Route path="/menu" component={MenuBlock} />
               <Route path="/purchase" component={Purchase} />
               <Route path="/login" component={Login} />
             <Route path="/signup" component={Signup} />

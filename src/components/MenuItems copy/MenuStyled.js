@@ -98,7 +98,7 @@ export const MenuItem3 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: aqua;
+  background: #9bf2d7;
   height: 45vh;
 
   &:hover{
@@ -120,6 +120,6 @@ export const MenuItem4 = styled.div`
 
 export const MenuText = styled.div`
   display: block;
-
+  color: #222;
 `;
 
