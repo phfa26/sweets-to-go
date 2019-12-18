@@ -8,7 +8,7 @@ export default class PurchasePage extends Component {
     return (
       <PageSize>
         <AquaBanner/>
-        <PinkContainer/>
+        <PinkContainer>Hello</PinkContainer>
         <YellowBanner/>
       </PageSize>
     );
