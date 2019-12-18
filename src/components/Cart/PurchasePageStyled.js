@@ -16,10 +16,18 @@ export const AquaBanner = styled.div`
 
 export const PinkContainer = styled.section`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;  
   background-color: #ffa8ca;
   height: 70vh;
   width: 100%;
+`;
+
+export const PurchaseCard = styled.div`
+  box-sizing: border-box;
+  background: hotpink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
