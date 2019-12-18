@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-
 import { FoodTextLayout, FoodImage, FoodName, FoodCost } from '../Food/FoodStyled';
 import { PageSize, AquaBanner, PinkContainer, YellowBanner, PurchaseCard, AddSubtractBlock } from './PurchasePageStyled';
 import { Add, Subtract, Button } from '../Button';
 import {BackDrop} from '../Modal/ModalStyled';
-
 import { Modal } from '../Modal/Modal';
 
 export default class PurchasePage extends Component {
@@ -35,7 +33,6 @@ export default class PurchasePage extends Component {
 
         <PinkContainer>
           <Modal
-            className="modal"
             show={this.state.isShowing}
             close={this.closeModalHandler}>
             <p>and thanks for shopping with us</p>

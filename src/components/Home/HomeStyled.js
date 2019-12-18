@@ -26,7 +26,7 @@ export const CoolerHomeWrapper = styled.div`
 
 export const HeaderWrapper = styled.div`
   margin-top: 10vh;
-  margin-bottom: 1vh;
+  margin-bottom: 1rem;
   border: hotpink solid 5px;
   border-radius: 300px;
   padding: 2rem;
@@ -43,8 +43,6 @@ export const HomeHeader = styled.h1`
 
 export const HomeSentence = styled.h2`
   font-size: 3rem;
-  font-weight: 00;
-  letter-spacing: 1px;
   line-height: 3.5rem;
   color: #222;
 `;

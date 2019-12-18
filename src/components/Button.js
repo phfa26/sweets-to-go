@@ -93,6 +93,7 @@ export const StyledLink = styled(Link)`
 
 export const SignupLink = styled(Link)`
   color: #222;
+  font-size: 1rem;
 
   &:hover{
     color: hotpink;
@@ -110,7 +111,7 @@ export const InputStyling = styled.div`
     background: rgba(255, 255, 255, 0.5);
     border-radius: 100px;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.2rem;;
     padding: 1.2rem;
   }
 

@@ -13,7 +13,8 @@ export const Modal = (props) => {
           <h1>Enjoy Your Sweets</h1>
           <p>Thanks for shopping with us</p>
 
-      <StyledLink to="/"><Button onClick={props.close}>Close</Button></StyledLink>
+      <Button onClick={props.close}>Close</Button>
+      {/* <StyledLink to="/"><Button onClick={props.close}>Close</Button></StyledLink> */}
 
     </ModalWrapper>
   )
