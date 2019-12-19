@@ -43,7 +43,10 @@ export const NavigationBar = () => (
             <Nav.Link href="/login">Login</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/purchase"><i class="fas fa-shopping-cart"></i></Nav.Link>
+            <Nav.Link href="/purchase"><i className="fas fa-shopping-cart" /></Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href="/account">Account</Nav.Link>
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>

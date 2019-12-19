@@ -8,6 +8,7 @@ import {NoMatch} from './components/NoMatch';
 import {NavigationBar} from './components/NavigationBar';
 import MenuPage from './components/Menu/MenuPage';
 import PurchasePage from './components/Cart/PurchasePage';
+import AccountPage from './components/Account/AccountPage';
 
 class App extends Component {
   render(){
@@ -20,6 +21,7 @@ class App extends Component {
               <Route path="/menu" component={MenuPage} />
               <Route path="/purchase" component={PurchasePage} />
               <Route path="/login" component={Login} />
+            <Route path="/account" component={AccountPage} />
             <Route path="/signup" component={Signup} />
               <Route component={NoMatch} />
             </Switch>

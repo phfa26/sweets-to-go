@@ -4,16 +4,6 @@ export const PageSize = styled.div`
   height: 90vh;
 `;
 
-export const YellowBanner = styled.div`
-  height: 25vh;
-  background: #f2e266;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-`;
-
 export const AquaBanner = styled.div`
   height: 25vh;
   background: #9bf2d7;

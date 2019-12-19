@@ -29,8 +29,7 @@ export default class PurchasePage extends Component {
   render() {
     return (
       <PageSize>
-        
-
+      
         <PinkContainer>
           <Modal
             show={this.state.isShowing}
