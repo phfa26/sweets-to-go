@@ -39,3 +39,10 @@ export const AddSubtractBlock = styled.div`
   flex-direction: row;
   width: 200px;
 `;
+
+export const PurchaseNumber = styled.div`
+  flex-direction: row;
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+`;
