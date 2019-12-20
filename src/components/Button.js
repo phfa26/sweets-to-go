@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom'
 
 export const Add = styled.button`
-  width: 75px;
+  width: 50px;
   height: 50px;
   padding: 0;
   line-height: 0;
@@ -14,8 +14,6 @@ export const Add = styled.button`
   font-weight: 600;
   font-size: 3rem;
   box-shadow: 4px 4px #222;
-  margin-top: -0.5rem;
-  margin-right: 3rem;
 
   &:hover{
     box-shadow: none;
@@ -24,19 +22,18 @@ export const Add = styled.button`
 `;
 
 export const Subtract = styled.button`
-  width: 75px;
+  width: 50px;
   height: 50px;
   padding: 0;
   line-height: 0;
   box-sizing: border-box;
-  background:hotpink;
+  background: hotpink;
   border-radius: 40px;
   border: 3px solid white;
   color: white;
   font-weight: 600;
   font-size: 3rem;
   box-shadow: 4px 4px #222;
-  margin-top: -0.5rem;
 
   &:hover{
     box-shadow: none;

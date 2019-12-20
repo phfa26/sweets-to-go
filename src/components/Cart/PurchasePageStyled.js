@@ -26,7 +26,7 @@ export const PinkContainer = styled.section`
 
 export const PurchaseCard = styled.div`
   box-sizing: border-box;
-  padding: 2rem 1rem;
+  padding: 1.5rem 0.5rem 0.5rem 0.5rem;
   border: 2px solid white;
   border-radius: 50px;
   display: flex;
@@ -36,13 +36,16 @@ export const PurchaseCard = styled.div`
 `;
 
 export const AddSubtractBlock = styled.div`
-  flex-direction: row;
+  display: flex;
+  flex: row;
+  justify-content: space-evenly;
   width: 200px;
 `;
 
 export const PurchaseNumber = styled.div`
   flex-direction: row;
+  margin-top: -0.5rem;
   color: white;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 3rem;
 `;

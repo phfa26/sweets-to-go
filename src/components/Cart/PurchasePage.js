@@ -54,6 +54,57 @@ export default class PurchasePage extends Component {
             </AddSubtractBlock>
 
           </PurchaseCard>
+
+          <PurchaseCard>
+
+            <FoodImage />
+
+            <FoodTextLayout>
+              <FoodName>Iced Coffee</FoodName>
+              <FoodCost>... $5.00</FoodCost>
+            </FoodTextLayout>
+
+            <AddSubtractBlock>
+              <Add>+</Add>
+              <PurchaseNumber>0</PurchaseNumber>
+              <Subtract>-</Subtract>
+            </AddSubtractBlock>
+
+          </PurchaseCard>
+
+          <PurchaseCard>
+
+            <FoodImage />
+
+            <FoodTextLayout>
+              <FoodName>Iced Coffee</FoodName>
+              <FoodCost>... $5.00</FoodCost>
+            </FoodTextLayout>
+
+            <AddSubtractBlock>
+              <Add>+</Add>
+              <PurchaseNumber>0</PurchaseNumber>
+              <Subtract>-</Subtract>
+            </AddSubtractBlock>
+
+          </PurchaseCard>
+
+          <PurchaseCard>
+
+            <FoodImage />
+
+            <FoodTextLayout>
+              <FoodName>Iced Coffee</FoodName>
+              <FoodCost>... $5.00</FoodCost>
+            </FoodTextLayout>
+
+            <AddSubtractBlock>
+              <Add>+</Add>
+              <PurchaseNumber>0</PurchaseNumber>
+              <Subtract>-</Subtract>
+            </AddSubtractBlock>
+
+          </PurchaseCard>
           
           
         </PinkContainer>
