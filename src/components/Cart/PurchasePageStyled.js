@@ -19,26 +19,19 @@ export const ButtonRow = styled.div`
   flex-direction: row;
 `;
 
-// export const PinkContainer = styled.section`
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: center;
-//   align-items: center;  
-//   background-color: #ffa8ca;
-//   height: 65vh;
-//   width: 100%;
-// `;
-
 export const PinkContainer = styled.section`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
-  justify-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #ffa8ca;
   height: 65vh;
   width: 100%;
 
   @media (max-width: 1000px) {
+    display: grid;
+    justify-items: center;
+    align-items: center;
     grid-template-columns: 1fr 1fr;
     height: auto;
     }

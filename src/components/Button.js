@@ -2,9 +2,10 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom'
 
 export const Add = styled.button`
+  position: absolute;
   width: 50px;
   height: 50px;
-  padding: 0;
+  margin-left: 70px;
   line-height: 0;
   box-sizing: border-box;
   background:#9bf2d7;
@@ -22,9 +23,10 @@ export const Add = styled.button`
 `;
 
 export const Subtract = styled.button`
+  position: absolute;
   width: 50px;
   height: 50px;
-  padding: 0;
+  margin-left: -70px;
   line-height: 0;
   box-sizing: border-box;
   background: hotpink;

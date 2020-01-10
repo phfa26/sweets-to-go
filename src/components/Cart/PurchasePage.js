@@ -6,11 +6,12 @@ import {BackDrop} from '../Modal/ModalStyled';
 import { Modal } from '../Modal/Modal';
 
 export default class PurchasePage extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
-      isShowing: false
+      isShowing: false,
+      count: 1
     }
   }
 
@@ -26,6 +27,20 @@ export default class PurchasePage extends Component {
     });
   }
 
+  incrementCount = () => {
+    this.setState({
+      count: this.state.count + 1
+    })
+  }
+
+  decrementCount = () => {
+    if (this.state.count > 0) {
+      this.setState({
+        count: this.state.count - 1
+      });
+    } 
+  };
+  
   render() {
     return (
       <PageSize>
@@ -57,68 +72,15 @@ export default class PurchasePage extends Component {
             </FoodTextLayout>
 
             <AddSubtractBlock>
-              <Add>+</Add>
-              <PurchaseNumber>0</PurchaseNumber>
-              <Subtract>-</Subtract>
+              <Subtract onClick={ () => this.decrementCount()}>-</Subtract>
+              <PurchaseNumber>{this.state.count}</PurchaseNumber>
+              <Add onClick={() => this.incrementCount()}>+</Add>
             </AddSubtractBlock>
 
           </PurchaseCard>
 
-          <PurchaseCard>
-
-            <FoodImage />
-
-            <FoodTextLayout>
-              <FoodName>Iced Coffee</FoodName>
-              <FoodCost>... $5.00</FoodCost>
-            </FoodTextLayout>
-
-            <AddSubtractBlock>
-              <Add>+</Add>
-              <PurchaseNumber>0</PurchaseNumber>
-              <Subtract>-</Subtract>
-            </AddSubtractBlock>
-
-          </PurchaseCard>
-
-          <PurchaseCard>
-
-            <FoodImage />
-
-            <FoodTextLayout>
-              <FoodName>Iced Coffee</FoodName>
-              <FoodCost>... $5.00</FoodCost>
-            </FoodTextLayout>
-
-            <AddSubtractBlock>
-              <Add>+</Add>
-              <PurchaseNumber>0</PurchaseNumber>
-              <Subtract>-</Subtract>
-            </AddSubtractBlock>
-
-          </PurchaseCard>
-
-          <PurchaseCard>
-
-            <FoodImage />
-
-            <FoodTextLayout>
-              <FoodName>Iced Coffee</FoodName>
-              <FoodCost>... $5.00</FoodCost>
-            </FoodTextLayout>
-
-            <AddSubtractBlock>
-              <Add>+</Add>
-              <PurchaseNumber>0</PurchaseNumber>
-              <Subtract>-</Subtract>
-            </AddSubtractBlock>
-
-          </PurchaseCard>
-          
-          
         </PinkContainer>
-        
-        
+          
       </PageSize>
     );
   }

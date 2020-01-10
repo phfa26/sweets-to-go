@@ -17,8 +17,6 @@ export const Modal = (props) => {
           
 
       <Button onClick={props.close}>Close</Button>
-      {/* <StyledLink to="/"><Button onClick={props.close}>Close</Button></StyledLink> */}
-
     </ModalWrapper>
   )
 };
