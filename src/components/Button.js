@@ -8,7 +8,7 @@ export const Add = styled.button`
   margin-left: 70px;
   line-height: 0;
   box-sizing: border-box;
-  background:#9bf2d7;
+  background: turquoise;
   border-radius: 40px;
   border: 3px solid white;
   color: white;
@@ -61,6 +61,23 @@ export const MenuButton = styled.button`
     background: #f2e266;
   }
 `;
+export const ModalButton = styled.button`
+  background: turquoise;
+  border-radius: 40px;
+  border: 3px solid white;
+  color: white;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 0 1rem 1rem 1rem;
+  padding: 0.25em 1em;
+  box-shadow: 4px 4px #222;
+  width: 300px;
+
+  &:hover{
+    box-shadow: none;
+    background: #f2e266;
+  }
+`;
 
 export const Button = styled.button`
   background:hotpink;
@@ -76,7 +93,7 @@ export const Button = styled.button`
 
   &:hover{
     box-shadow: none;
-    background: #f2e266;
+    background: turquoise;
   }
 `;
 

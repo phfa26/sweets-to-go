@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, StyledLink } from '../Button';
+import { ModalButton, Button } from '../Button';
 import {ModalWrapper, ModalText} from './ModalStyled';
 
 export const Modal = (props) => {
@@ -11,12 +11,12 @@ export const Modal = (props) => {
         }}>
 
           <ModalText>
-            <h1>Enjoy Your Sweets</h1>
-            <p>Thanks for shopping with us</p>
+            <h1 id="modalTitle">Enjoy Your Sweets</h1>
+            <p id="modalParr">Thanks for shopping with us</p>
           </ModalText>
           
 
-      <Button onClick={props.close}>Close</Button>
+      <ModalButton onClick={props.close}>Close</ModalButton>
     </ModalWrapper>
   )
 };
