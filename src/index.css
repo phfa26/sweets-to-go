@@ -20,6 +20,7 @@ popsicle: https://static.vecteezy.com/system/resources/previews/000/535/056/non_
 
 */
 
+button:focus {outline:0;}
 
 body {
   margin: 0;
