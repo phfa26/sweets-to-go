@@ -64,6 +64,7 @@ p{
   color: #222;
 }
 
-button.navbar-toggler{
-  background: pink;
+span.navbar-toggler-icon{
+  background: #ffa8ca;
+  border-radius: 30px;
 }
