@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {SummerHome} from './components/Home/SummerHome';
-// import {WinterHome} from './components/Home/WinterHome';
 import {Login} from './components/Login/Login';
 import {Signup} from './components/Signup/Signup';
 import {NoMatch} from './components/NoMatch';

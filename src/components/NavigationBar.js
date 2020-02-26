@@ -13,6 +13,10 @@ const Styles = styled.div`
     font-size: 1.5rem;
     padding-left: 2rem;
     letter-spacing: 1px;
+
+    &:hover {
+      color: #ffa8ca;
+    }
   }
 
   .navbar-nav .nav-link {
