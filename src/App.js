@@ -17,7 +17,7 @@ class App extends Component {
         <Router basename="/">
           <Switch>
             <Route exact path="/" component={SummerHome} />
-            <Route path="/menumenu" component={MenuPage} />
+            <Route path="/menu" component={MenuPage} />
             <Route path="/purchase" component={PurchasePage} />
             <Route path="/login" component={Login} />
             <Route path="/account" component={AccountPage} />
