@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sweets-to-go/static/css/main.425fa203.chunk.css",
+    "main.js": "/sweets-to-go/static/js/main.643c6562.chunk.js",
+    "main.js.map": "/sweets-to-go/static/js/main.643c6562.chunk.js.map",
+    "runtime-main.js": "/sweets-to-go/static/js/runtime-main.1dd143aa.js",
+    "runtime-main.js.map": "/sweets-to-go/static/js/runtime-main.1dd143aa.js.map",
+    "static/js/2.beeb7c1d.chunk.js": "/sweets-to-go/static/js/2.beeb7c1d.chunk.js",
+    "static/js/2.beeb7c1d.chunk.js.map": "/sweets-to-go/static/js/2.beeb7c1d.chunk.js.map",
+    "index.html": "/sweets-to-go/index.html",
+    "precache-manifest.f41b41d667fc64510e11f549050dda8c.js": "/sweets-to-go/precache-manifest.f41b41d667fc64510e11f549050dda8c.js",
+    "service-worker.js": "/sweets-to-go/service-worker.js",
+    "static/css/main.425fa203.chunk.css.map": "/sweets-to-go/static/css/main.425fa203.chunk.css.map",
+    "static/js/2.beeb7c1d.chunk.js.LICENSE": "/sweets-to-go/static/js/2.beeb7c1d.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1dd143aa.js",
+    "static/js/2.beeb7c1d.chunk.js",
+    "static/css/main.425fa203.chunk.css",
+    "static/js/main.643c6562.chunk.js"
+  ]
+}
