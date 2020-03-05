@@ -14,7 +14,10 @@ export const SummerHome = () => (
   <WarmerHomeWrapper>
     <HeaderWrapper>
       <HomeHeader>Sweets To Go</HomeHeader>
-      <HomeSentence>Because there's always room for dessert</HomeSentence>
+      <HomeSentence>
+        Because there's always
+        <br /> room for dessert
+      </HomeSentence>
     </HeaderWrapper>
     <StyledLink to="/login">
       <Button>Make An Order</Button>
