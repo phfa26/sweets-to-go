@@ -23,10 +23,10 @@ export const Login = () => (
           <input type="text" placeholder="Password" />
         </InputStyling>
 
-        <StyledLink to="/sweets-to-go/menu">
+        <StyledLink to="/menu">
           <Button>Login</Button>
         </StyledLink>
-        <SignupLink to="/sweets-to-go/signup">Need to Sign-Up?</SignupLink>
+        <SignupLink to="/signup">Need to Sign-Up?</SignupLink>
       </LoginStyled>
     </PinkContainer>
     <AquaBanner />

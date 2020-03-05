@@ -25,13 +25,11 @@ export const Signup = () => (
           <input type="text" placeholder="Password Confirmation" />
         </InputStyling>
 
-        <StyledLink to="/sweets-to-go/menu">
+        <StyledLink to="/menu">
           <Button>Sign-Up</Button>
         </StyledLink>
         <p>
-          <SignupLink to="/sweets-to-go/login">
-            Already have an account?
-          </SignupLink>
+          <SignupLink to="/login">Already have an account?</SignupLink>
         </p>
       </SignupStyled>
     </PinkContainer>

@@ -64,7 +64,7 @@ export default class PurchasePage extends Component {
           ) : null}
 
           <ButtonRow>
-            <StyledLink to="/sweets-to-go/menu">
+            <StyledLink to="/menu">
               <Button>Back To Menu</Button>
             </StyledLink>
             <Button onClick={this.openModalHandler}>Confirm Purchase</Button>

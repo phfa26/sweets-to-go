@@ -14,14 +14,14 @@ class App extends Component {
     return (
       <React.Fragment>
         <NavigationBar />
-        <Router>
+        <Router basename="/">
           <Switch>
-            <Route exact path="/sweets-to-go/" component={SummerHome} />
-            <Route path="/sweets-to-go/menu" component={MenuPage} />
-            <Route path="/sweets-to-go/purchase" component={PurchasePage} />
-            <Route path="/sweets-to-go/login" component={Login} />
-            <Route path="/sweets-to-go/account" component={AccountPage} />
-            <Route path="/sweets-to-go/signup" component={Signup} />
+            <Route exact path="/" component={SummerHome} />
+            <Route path="/menumenu" component={MenuPage} />
+            <Route path="/purchase" component={PurchasePage} />
+            <Route path="/login" component={Login} />
+            <Route path="/account" component={AccountPage} />
+            <Route path="/signup" component={Signup} />
             <Route component={NoMatch} />
           </Switch>
         </Router>

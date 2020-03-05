@@ -18,7 +18,7 @@ export const SummerHome = () => (
         Because there's always <br /> room for dessert
       </HomeSentence>
     </HeaderWrapper>
-    <StyledLink to="/sweets-to-go/login">
+    <StyledLink to="/login">
       <Button>Make An Order</Button>
     </StyledLink>
   </WarmerHomeWrapper>
