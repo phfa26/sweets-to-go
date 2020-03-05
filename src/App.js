@@ -13,8 +13,8 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <NavigationBar />
         <Router basename="/sweets-to-go">
+          <NavigationBar />
           <Switch>
             <Route exact path="/" component={SummerHome} />
             <Route path="/menu" component={MenuPage} />
