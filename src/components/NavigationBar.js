@@ -1,6 +1,6 @@
-import React from 'react';
-import {Nav, Navbar} from 'react-bootstrap';
-import styled from 'styled-components';
+import React from "react";
+import { Nav, Navbar } from "react-bootstrap";
+import styled from "styled-components";
 
 const Styles = styled.div`
   .navbar {
@@ -38,22 +38,24 @@ export const NavigationBar = () => (
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Item>
-            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/sweets-to-go/">Home</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/menu">Menu</Nav.Link>
+            <Nav.Link href="/sweets-to-go/menu">Menu</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/login">Login</Nav.Link>
+            <Nav.Link href="/sweets-to-go/login">Login</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/account">Account</Nav.Link>
+            <Nav.Link href="/sweets-to-go/account">Account</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/purchase"><i className="fas fa-shopping-cart" /></Nav.Link>
+            <Nav.Link href="/sweets-to-go/purchase">
+              <i className="fas fa-shopping-cart" />
+            </Nav.Link>
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
   </Styles>
-  );
+);

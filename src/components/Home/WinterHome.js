@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 import {
   CoolerHomeWrapper,
@@ -7,18 +7,20 @@ import {
   HomeHeader,
   HomeSentence,
   StyledLink
-} from './HomeStyled';
+} from "./HomeStyled";
 
-import {
-  Button,
-} from '../Button';
+import { Button } from "../Button";
 
 export const WinterHome = () => (
   <CoolerHomeWrapper>
     <HeaderWrapper>
       <HomeHeader>Sweets To Go</HomeHeader>
-      <HomeSentence>Because there's always <br /> room for dessert</HomeSentence>
+      <HomeSentence>
+        Because there's always <br /> room for dessert
+      </HomeSentence>
     </HeaderWrapper>
-    <StyledLink to="/login"><Button>Make An Order</Button></StyledLink>
+    <StyledLink to="/sweets-to-go/login">
+      <Button>Make An Order</Button>
+    </StyledLink>
   </CoolerHomeWrapper>
 );

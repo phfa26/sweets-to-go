@@ -6,18 +6,20 @@ import {
   HomeHeader,
   HomeSentence,
   StyledLink
-} from './HomeStyled';
+} from "./HomeStyled";
 
-import {
-  Button,
-} from '../Button';
+import { Button } from "../Button";
 
 export const SummerHome = () => (
   <WarmerHomeWrapper>
     <HeaderWrapper>
       <HomeHeader>Sweets To Go</HomeHeader>
-      <HomeSentence>Because there's always <br/> room for dessert</HomeSentence>
+      <HomeSentence>
+        Because there's always <br /> room for dessert
+      </HomeSentence>
     </HeaderWrapper>
-    <StyledLink to="/login"><Button>Make An Order</Button></StyledLink>
+    <StyledLink to="/sweets-to-go/login">
+      <Button>Make An Order</Button>
+    </StyledLink>
   </WarmerHomeWrapper>
 );

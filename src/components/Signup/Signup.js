@@ -6,21 +6,15 @@ import {
   PinkContainer,
   SignupStyled,
   SignupHeader,
-  YellowBanner, 
-} from './SignupStyled';
+  YellowBanner
+} from "./SignupStyled";
 
-import {
-  Button,
-  StyledLink,
-  SignupLink,
-  InputStyling,
-} from '../Button';
+import { Button, StyledLink, SignupLink, InputStyling } from "../Button";
 
 export const Signup = () => (
   <SignupPage>
-    <AquaBanner/>
+    <AquaBanner />
     <PinkContainer>
-
       <SignupStyled>
         <SignupHeader>Sign-Up</SignupHeader>
 
@@ -31,11 +25,16 @@ export const Signup = () => (
           <input type="text" placeholder="Password Confirmation" />
         </InputStyling>
 
-        <StyledLink to="/menu"><Button>Sign-Up</Button></StyledLink>
-        <p><SignupLink to="/login">Already have an account?</SignupLink></p>
-
+        <StyledLink to="/sweets-to-go/menu">
+          <Button>Sign-Up</Button>
+        </StyledLink>
+        <p>
+          <SignupLink to="/sweets-to-go/login">
+            Already have an account?
+          </SignupLink>
+        </p>
       </SignupStyled>
     </PinkContainer>
-    <YellowBanner/>
+    <YellowBanner />
   </SignupPage>
 );
