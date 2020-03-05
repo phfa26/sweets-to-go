@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "39ac37d0d340b2753f1fa49373c3ba9b",
+    "revision": "1151468672f0ff73b86e8144fe3e9ac6",
     "url": "/sweets-to-go/index.html"
   },
   {
-    "revision": "f473d0a7e32900ddaffa",
+    "revision": "06a43078b988c5c063c0",
     "url": "/sweets-to-go/static/css/main.425fa203.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sweets-to-go/static/js/2.beeb7c1d.chunk.js.LICENSE"
   },
   {
-    "revision": "f473d0a7e32900ddaffa",
-    "url": "/sweets-to-go/static/js/main.643c6562.chunk.js"
+    "revision": "06a43078b988c5c063c0",
+    "url": "/sweets-to-go/static/js/main.e117cedf.chunk.js"
   },
   {
     "revision": "a07e2ed462be5d34225a",
