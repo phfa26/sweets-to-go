@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/sweets-to-go/static/css/main.425fa203.chunk.css",
-    "main.js": "/sweets-to-go/static/js/main.b337d5f2.chunk.js",
-    "main.js.map": "/sweets-to-go/static/js/main.b337d5f2.chunk.js.map",
+    "main.js": "/sweets-to-go/static/js/main.9840513a.chunk.js",
+    "main.js.map": "/sweets-to-go/static/js/main.9840513a.chunk.js.map",
     "runtime-main.js": "/sweets-to-go/static/js/runtime-main.1dd143aa.js",
     "runtime-main.js.map": "/sweets-to-go/static/js/runtime-main.1dd143aa.js.map",
-    "static/js/2.beeb7c1d.chunk.js": "/sweets-to-go/static/js/2.beeb7c1d.chunk.js",
-    "static/js/2.beeb7c1d.chunk.js.map": "/sweets-to-go/static/js/2.beeb7c1d.chunk.js.map",
+    "static/js/2.53324dae.chunk.js": "/sweets-to-go/static/js/2.53324dae.chunk.js",
+    "static/js/2.53324dae.chunk.js.map": "/sweets-to-go/static/js/2.53324dae.chunk.js.map",
     "index.html": "/sweets-to-go/index.html",
-    "precache-manifest.7da5f99ff14c0d52ab4a3f04ef47525d.js": "/sweets-to-go/precache-manifest.7da5f99ff14c0d52ab4a3f04ef47525d.js",
+    "precache-manifest.a204d6ac3017ae0168aa4968f060e3e1.js": "/sweets-to-go/precache-manifest.a204d6ac3017ae0168aa4968f060e3e1.js",
     "service-worker.js": "/sweets-to-go/service-worker.js",
     "static/css/main.425fa203.chunk.css.map": "/sweets-to-go/static/css/main.425fa203.chunk.css.map",
-    "static/js/2.beeb7c1d.chunk.js.LICENSE": "/sweets-to-go/static/js/2.beeb7c1d.chunk.js.LICENSE"
+    "static/js/2.53324dae.chunk.js.LICENSE": "/sweets-to-go/static/js/2.53324dae.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.1dd143aa.js",
-    "static/js/2.beeb7c1d.chunk.js",
+    "static/js/2.53324dae.chunk.js",
     "static/css/main.425fa203.chunk.css",
-    "static/js/main.b337d5f2.chunk.js"
+    "static/js/main.9840513a.chunk.js"
   ]
 }
